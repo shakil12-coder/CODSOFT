@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d4a556eaee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="./img/medium.gif" class="logo" />
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#proj">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="info" id="HOME">
+        <h1>I'm <span>Md</span> Samir</h1>
+        <p>Passionate Java Coder and Web Developer</p>
+        <a href="./docs/Overleaf_resume.pdf" target="_blank" class="cv">Download CV</a>
+      </div>
+      <div class="img-box">
+        <img src="./img/back.png" class="back-img" />
+        <img src="./img/dp_png.png" class="man-img" />
+      </div>
+      <div class="social">
+        <a href=""
+          ><i class="fa-brands fa-github" style="color: #080808"></i
+        ></a>
+        <a href=""
+          ><i class="fa-brands fa-linkedin" style="color: #080808"></i
+        ></a>
+        <a href=""
+          ><i class="fa-brands fa-square-facebook" style="color: #080808"></i
+        ></a>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <!-- About -->
+      <p style="font-size: 18px; font-weight: 900">Introduction</p>
+      <h2 class="about-head">About</h2>
+      <p class="about-body">
+        I am a passionate Java developer with experience in web development
+        using the MERN stack. I am currently pursuing my B.Tech in Computer
+        Science from Asansol Engineering College. Over the years, I have honed
+        my skills in Java programming and have gained expertise in building web
+        applications using the MERN stack. I have a keen eye for detail and am
+        always striving to improve my skills to stay on top of the latest
+        industry trends.
+      </p>
+    </div>
+    <div class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-container">
+        <div class="skill-card">
+          <i class="fa-brands fa-java" style="color: #0d0d0d"></i>
+          <h3>JAVA</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-js" style="color: #121212"></i>
+          <h3>JAVASCRIPT</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-html5" style="color: #0c0d0d"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-css3-alt" style="color: #050505"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-react" style="color: #080808"></i>
+          <h3>REACTJS</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-node" style="color: #030303"></i>
+          <h3>NODEJS</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-node-js" style="color: #0c0d0d"></i>
+          <h3>EXPRESSJS</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-database" style="color: #0c0d0d"></i>
+          <h3>MONGODB</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-code" style="color: #050505"></i>
+          <h3>SOLIDITY</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-database" style="color: #121212"></i>
+          <h3>SQL</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-git-alt" style="color: #080808"></i>
+          <h3>GIT</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-github" style="color: #0a0a0a"></i>
+          <h3>GITHUB</h3>
+        </div>
+      </div>
+    </div>
+    <div class="project" id="proj">
+      <!-- About -->
+      <p style="font-size: 18px; font-weight: 900">My work</p>
+      <h2 class="proj-head">Projects</h2>
+      <p class="proj-body">
+        Following projects showcases my skills and experience through real-world
+        examples of my work. Each project is briefly described with links to
+        code repositories and live demos in it. It reflects my ability to solve
+        complex problems, work with different technologies, and manage projects
+        effectively.
+      </p>
+      <div class="proj-container">
+        <a href="https://d-portfolio-f41f9.web.app/" class="proj-card" target="_blank">
+          <img src="./img/projects/3d-portfolio.png" alt="">
+          <div class="proj-details">
+            <h3 class="proj-name">
+              3D PORTFOLIO
+            </h3>
+            <p class="proj-desc">
+              This project is a web application that implements 3D models into it using three.js Libraries. The project utilizes HTML, CSS, JavaScript, ReactJS, and Three.js library to display the models in a web browser.
+            </p>
+          </div>
+        </a>
+        <a href="https://netflix-clone-3a5f1.firebaseapp.com/" class="proj-card" target="_blank">
+          <img src="./img/projects/netflixclone.png" alt="">
+          <div class="proj-details">
+            <h3 class="proj-name">
+              NETFLIX CLONE
+            </h3>
+            <p class="proj-desc">
+              A Netflix clone project made from React JS hosted using firebase and Used TMDB api for getting all the movie related information. This resembles the design and functionality of Netflix
+            </p>
+          </div>
+        </a>
+        <a href="https://openai-summarizer-by-samir.netlify.app/" class="proj-card" target="_blank">
+          <img src="./img/projects/OpenAI.png" alt="">
+          <div class="proj-details">
+            <h3 class="proj-name">
+              OPENAI ARTICLE SUMMERIZER
+            </h3>
+            <p class="proj-desc">
+              It is an AI-powered summarizer using RapidAPI's Article Extractor and GPT technology. Transform lengthy articles into concise summaries in seconds.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="contact-form">
+        <p>
+          Get in touch
+        </p>
+        <h2>
+          Contact
+        </h2>
+        <form action="" class="c-form">
+          <label for="">
+            <span>
+              Your Name
+            </span>
+            <input type="text" placeholder="What's your good name?">
+          </label>
+          <label for="">
+            <span>
+              Your Email
+            </span>
+            <input type="email" placeholder="What's your email address?">
+          </label>
+          <label for="">
+            <span>
+              Your Message
+            </span>
+            <textarea name="message" placeholder="What you want to say?" id="" cols="30" rows="7">
+
+            </textarea>
+          </label>
+
+          <button type="submit">
+            SEND
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
